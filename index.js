@@ -6,12 +6,11 @@ function takeANumber(katzDeliLine, name){
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
-
+let customerTotal=0
 function takeANumber2(){
-  let customerTotal=0
   
   customerTotal++
-  
+
   console.log(`You are number ${customerTotal} in line.`)
 }
 
