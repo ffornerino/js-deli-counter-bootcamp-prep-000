@@ -12,10 +12,11 @@ function takeANumber2(){
   
   customerTotal++
   
-  return `You are number ${customerTotal} in line.`
+  console.log(`You are number ${customerTotal} in line.`)
 }
 
-
+takeANumber2()
+takeANumber2()
 
 
 function nowServing(katzDeliLine){
